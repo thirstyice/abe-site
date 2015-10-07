@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2014 Tauran Wood, Owen Thiessen -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/topmenu.css"/>
+		<script>
+		$(document).ready(function(){document.getElementById(location.href.replace(/.*aberhart\//i,"").replace(/\/.*/i,"").trim()).className="topmenuHighlight";});
+		</script>
+		<link rel="shortcut icon" href="/b829/aberhart/favicon.ico"/>
+	</head>
+	<body>
+		<div id="topmenu">
+			<a id="main" href="/b829/aberhart/index.htm">home</a>
+			<a id="departments" href="/b829/aberhart/departments/departments.html">departments</a>
+			<a id="programs" href="/b829/aberhart/programs/programs.html">programs</a>
+			<a id="learning-commons" href="/b829/aberhart/learning-commons/learning-commons.html">learning commons</a>
+			<a id="student-activities" href="/b829/aberhart/student-activities/student-activities.html">student activities</a>
+			<a id="student-services" href="/b829/aberhart/student-services/guidance.html">student services</a>
+			<a id="fees" href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/fees/descriptions.pdf">fees and forms</a>
+			<a id="about" href="/b829/aberhart/about/about-us.html">about us</a>
+		</div>
+	</body>
+</html>
