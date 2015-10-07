@@ -1,0 +1,140 @@
+/* Copyright 2013-15 Tauran Wood */
+
+/*  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.mainPageNews {
+	border-color:#666;
+	border-width:1px;
+	border-style:none;
+	border-top-style:solid;
+	width:100%;
+}
+.mainPageNews col {
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	overflow:hidden;
+	
+}
+.mainPageNews col:last-child {
+	border-right-style:none;
+}
+.mainPageNews td {
+	vertical-align:top;
+	width:32%;
+	overflow:hidden;
+	border-color:#666;
+	border-width:1px;
+	border-style:none;
+	border-right-style:solid;
+}
+.mainPageNews tr:last-child td, .mainPageNews td:last-child {
+	border-right-style:none;
+}
+.mainPageNews > tbody > tr:last-child > td > a {
+	padding-left:40px;
+}
+.mainPageSlider img {
+	float:left;
+	margin-right:5px;
+	height:200px;
+	margin-left:15px;
+}
+#sliderContainer {
+	margin:0 10px;
+}
+#maxWidthSliderContainer {
+	padding-top:15px;
+	margin-top:15px;
+	border-style:none;
+	border-top-style:solid;
+	border-width:1px;
+	border-color:#666;
+	
+	display:none; /* This is nullified by javascript for desktop browsers */
+}
+#maxWidthSliderContainer h3 {
+	margin-top:0;
+	text-align:center;
+}
+#maxWidthSlider {
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* The following few classes control the rss styling */
+#cbeRSStitle {
+	background-color:#F28726;
+	margin:0px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-top:8px;
+	color:white;
+	border-top-right-radius:5px;
+}
+
+.feedburnerFeedBlock {
+	background-color:#ffffff;
+	max-height:370px;
+	border-style:none;
+	border-width:1px;
+	border-color:#666;
+	border-right-style:solid;
+	width:199px; /* Leave a pixel for border */
+	overflow:auto;
+}
+.feedburnerFeedBlock ul {
+	list-style:none;
+	padding-left:0px;
+	margin:0px;
+}
+.feedburnerFeedBlock li {
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:1px;
+	border-color:#666;
+	padding-left:10px;
+}
+.feedburnerFeedBlock li p {
+	margin:0;
+}
+.feedTitle {
+	display:none;
+}
+#cbeRSSsubscribe {
+	background-color:#F28726;
+	border-style:none;
+	border-bottom-right-radius:5px;
+	padding:5px;
+}
+#cbeRSSsubscribe a {
+	color:#fff;
+}
+/* This is where the rss styling ends */
+
+/* Survey link styling */
+#feedbackSurvey {
+	padding-top:10px;
+	margin-top:15px;
+	text-align:center;
+	border-style:none;
+	border-top-style:solid;
+	border-width:1px;
+	border-color:#666;
+	font-size:18px;
+	line-height:20px;
+}
